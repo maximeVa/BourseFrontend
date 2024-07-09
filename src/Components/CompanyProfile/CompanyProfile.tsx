@@ -66,6 +66,12 @@ const tableConfig = [
     subTitle:
       "This is the upperbouind of the price range that a defensive investor should pay for a stock",
   },
+  {
+    label: "Free Cashflow Per Share",
+    render: (company: CompanyKeyMetrics) => company.freeCashFlowPerShareTTM,
+    subTitle:
+      "Return on assets is the measure of how effective a company is using its assets",
+  },
 ];
 
 const CompanyProfile = (props: Props) => {
